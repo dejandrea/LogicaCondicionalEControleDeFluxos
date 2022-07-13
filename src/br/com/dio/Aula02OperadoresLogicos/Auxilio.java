@@ -8,8 +8,8 @@ public class Auxilio {
         boolean salarioBaixo = salario <= mediaSalario;
         boolean muitosDependentes = dependentes >= mediaDependentes;
 
-        boolean recebeAuxilio = salarioBaixo && muitosDependentes;
+        boolean recebe = salarioBaixo && muitosDependentes;
 
-        return recebeAuxilio;
+        return recebe;
     }
 }
